@@ -16,7 +16,9 @@ public class Sample2FacebookID {
 			String TagName;
 			TagName = driver.findElement(By.id("email")).getTagName();
 			System.out.println(TagName);
+			System.out.println("Hello test1");
 			driver.close();
+			
 			
 	}
 
